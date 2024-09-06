@@ -25,6 +25,7 @@ const actualizador = setInterval(function () {
   const segundos = Math.floor(tiempoRestante % (60))
   console.log(minutos)
 
+  
   const contador = document.getElementById("contador");
 
   contador.innerHTML = `
