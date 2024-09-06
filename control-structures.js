@@ -63,6 +63,9 @@ const generaCuota = (genero, edad) => {
     msj = 'Necesitamos su edad para generar una CUOTA'
   } else if (edad < 16) {
     msj = 'Todavia no puede comprar seguro de auto'
-  }
+  } else if (edad < 26 && genero === 'hombre') {
+    msj = 'El precio de su poliza es: '
+    precio = cat1A
+  } 
     
 }
