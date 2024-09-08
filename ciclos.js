@@ -19,10 +19,18 @@
 
 /** WHILE */
 
-let x = 2
-while (x <= 4) {
-  console.log(`Iteracion ${x}`)
-  x++
-}
+// let x = 2
+// while (x <= 4) {
+//   console.log(`Iteracion ${x}`)
+//   x++
+// }
 
-console.log(`Fin de ciclo`)
+// console.log(`Fin de ciclo`)
+
+/** DO WHILE */
+let y=5
+do {
+  console.log(`Iteracion ${y}`)
+  y++
+}
+while (y <= 9)
